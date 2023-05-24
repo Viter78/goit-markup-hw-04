@@ -493,7 +493,6 @@ body {
 
 .customers-item {
         display: flex;
-        background: #E5E5E5;
         width: calc((100%-120px) / 6);
         height: 88px;
 }
