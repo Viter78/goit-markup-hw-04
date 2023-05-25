@@ -31,12 +31,12 @@ img {
         display: block;
 }
 
-
 .container {
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
 }
+
 .address-contacts {
         font-style: normal;
 }
@@ -509,11 +509,19 @@ body {
         height: 100%;
 }
 
+.customers-link:hover,
+.customers-link:focus {
+        border-color: #404BBF;
+        accent-color:#404BBF;
+}
+
 .customers-icon {
-        fill: currentColor;
+        fill: currentColor; 
         margin-left: auto;
         margin-right: auto;
 }
+
+
 
 
 /* ================= FOOTER ================= */
