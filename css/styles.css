@@ -516,11 +516,13 @@ body {
 }
 
 .customers-icon {
-       fill:#404BBF;
+       fill:currentColor
 }
 
-
-
+.customers-icon:hover,
+.customers-icon:focus {
+        fill: #404BBF;
+}
 
 /* ================= FOOTER ================= */
 
