@@ -8,7 +8,9 @@
         --accent-hover-color: #404BBF;
         --primary-bg-color: #ffffff;
         --secondary-bg-color: #f4f4fd;
-}  
+} 
+
+/* ================= COMPONENTS ================= */
 
 .list {list-style: none;}
 
@@ -56,8 +58,6 @@ body {
         color: var(--primary-txt-color);
         background-color:var(--primary-bg-color);
 }
-
-/* ================= COMPONENTS ================= */
 
 .modal-open-btn {
         font-family: 'Roboto', sans-serif;
@@ -265,7 +265,8 @@ body {
         background-position: center;
         background-size: cover;
         padding: 188px 0;
-
+        max-width: 1440px;
+        margin: 0 auto;
 }
 
 .container-hero {
@@ -455,6 +456,13 @@ body {
 
 .portfolio-image {
         background:var(--primary-bg-color);
+}
+
+.examples-card:hover,
+.examples-card:focus {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-name {
