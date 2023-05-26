@@ -221,7 +221,12 @@ body {
 .filter-button:focus {
         background-color: var(--accent-hover-color);
         color: #FFFFFF;
-        border: 1px solid transparent;
+        border: 1px solid transparent;        
+}
+
+.filter-buttons:hover,
+.filter-buttons:focus {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-list {
@@ -449,7 +454,7 @@ body {
 }
 
 .portfolio-image {
-        background:var(--primary-bg-color);
+        display: block;
 }
 
 .examples-card:hover,
